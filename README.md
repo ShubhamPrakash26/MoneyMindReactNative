@@ -1,50 +1,132 @@
-# Welcome to your Expo app 👋
+# 💰 MoneyMind - Smart Budgeting App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+**MoneyMind** is a cross-platform mobile app designed to help users **track their expenses**, **manage finances**, and stay on top of their budgets—**all in real-time**.
 
-## Get started
+> 📲 Download the latest APK: [Click here to download](https://github.com/shubhamprakash26/MoneyMind/releases/latest)
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## ✨ Features
 
-2. Start the app
+- 📱 **Cross-Platform App** – Built using React Native & Expo
+- 🔐 **Authentication** – Secure sign-up and login via Clerk
+- 📩 **Email Verification** – 6-digit code-based email verification
+- 🏠 **Five Core Screens** – Signup, Login, Verify Email, Home, Create Transaction
+- 💸 **Expense Tracker** – Add and manage income or expense entries
+- 📊 **Live Balance Updates** – Real-time calculations of your balance
+- 🗑️ **Delete Transactions** – Tap to remove unwanted financial entries
+- 🔄 **Pull to Refresh** – Smooth refresh mechanism from scratch
+- 🚪 **Logout Functionality** – Easily switch or log out of accounts
+- 🧰 **Backend with Express.js** – Secure API with Neon-hosted Postgres DB
+- 🌐 **Cloud Deployed** – Fully accessible backend from anywhere
+- ⏱️ **Rate Limiting** – Redis-based protection for API
+- 🧠 **Beginner Friendly** – Built to be accessible for those new to React Native
+- 💸 **100% Free Tools** – Entirely built using open-source/free resources
+- 🧪 **Real Device Testing** – Works on your Android phone without a Mac
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+## 📸 Screenshots
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+| Login Screen | Home Screen | Create Transaction Screen |
+|--------------|-------------|----------------------------|
+| ![Login](https://github.com/user-attachments/assets/def4832b-158e-4296-bc47-a5e8e5d65423) | ![Home](https://github.com/user-attachments/assets/61f9b957-1f9c-4389-ba4e-2d2fec2f7db4) | ![Create](https://github.com/user-attachments/assets/a0dab0f5-416c-4a91-a373-80a7b8c400f1) |
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+## 🛠️ Tech Stack
 
-When you're ready, run:
+### Frontend:
+- React Native
+- Expo
+- Clerk (for Auth)
+- AsyncStorage (local state)
+
+### Backend:
+- Node.js
+- Express.js
+- PostgreSQL (Neon)
+- Redis (Rate Limiting)
+
+---
+
+## 🧪 Getting Started
+
+### 📦 Prerequisites
+- Node.js & npm
+- Expo CLI (`npm install -g expo-cli`)
+- Git
+- PostgreSQL (hosted on [Neon](https://neon.tech))
+
+### 🚀 Running the App
 
 ```bash
-npm run reset-project
+# Clone the repo
+git clone https://github.com/shubhamprakash26/MoneyMind.git
+cd MoneyMind
+
+# Install dependencies
+npm install
+
+# Start the Expo app
+npx expo start
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Open the Expo app on your phone and scan the QR code!
 
-## Learn more
+---
 
-To learn more about developing your project with Expo, look at the following resources:
+## 🌐 Backend Setup
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Navigate to the `server/` folder if backend is included.
 
-## Join the community
+### Configure `.env`:
 
-Join our community of developers creating universal apps.
+```env
+PORT=5000
+DATABASE_URL=your_neon_db_url
+REDIS_URL=your_redis_url
+CLERK_SECRET_KEY=your_clerk_secret_key
+```
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+### Start the server:
+
+```bash
+cd server
+npm install
+npm run dev
+```
+
+---
+
+## 📦 APK Download
+
+👉 [**Download Latest APK**](https://github.com/shubhamprakash26/MoneyMind/releases/latest)
+
+Install this on your Android device to try out the app instantly.
+
+---
+
+## 🤝 Contributing
+
+We welcome contributions from the community!
+
+```bash
+# Fork the repository
+# Create a new branch: git checkout -b feature/YourFeature
+# Commit your changes: git commit -m "Add Your Feature"
+# Push to GitHub: git push origin feature/YourFeature
+# Open a Pull Request
+```
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+## 👨‍💻 Author
+
+Built with ❤️ by [Shubham Prakash](https://github.com/shubhamprakash26)
