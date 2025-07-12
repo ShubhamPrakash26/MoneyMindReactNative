@@ -2,9 +2,11 @@
 
 **MoneyMind** is a cross-platform mobile app designed to help users **track their expenses**, **manage finances**, and stay on top of their budgets—**all in real-time**.
 
-> 📲 Download the latest APK: [Click here to download](https://github.com/shubhamprakash26/MoneyMind/releases/latest)
+> 📲 Download the latest APK: [Click here to download](https://github.com/ShubhamPrakash26/MoneyMindReactNative/releases/download/MoneyMind/MoneyMind.apk)
 
 ---
+
+
 
 ## ✨ Features
 
@@ -101,7 +103,7 @@ npm run dev
 
 ## 📦 APK Download
 
-👉 [**Download Latest APK**](https://github.com/shubhamprakash26/MoneyMind/releases/latest)
+👉 [**Download Latest APK**](https://github.com/ShubhamPrakash26/MoneyMindReactNative/releases/download/MoneyMind/MoneyMind.apk)
 
 Install this on your Android device to try out the app instantly.
 
